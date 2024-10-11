@@ -1,0 +1,115 @@
+{
+  /*Editor UI*/
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 12,
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "window.titleBarStyle": "custom",
+  "editor.renderWhitespace": "all",
+  /*Hide All NonEssential UI*/
+  "editor.stickyScroll.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "breadcrumbs.enabled": true,
+  "editor.minimap.enabled": false,
+  "workbench.statusBar.visible": false,
+  "workbench.settings.openDefaultSettings": false,
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  /*Hide Window Title*/
+  "window.title": " ",
+
+  /*Formatter*/
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "eslint.format.enable": true,
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": false,
+  "prettier.tabWidth": 2,
+  "prettier.bracketSameLine": true,
+  "workbench.activityBar.location": "hidden",
+
+  /*Language Specific*/
+  "emmet.excludeLanguages": ["markdown"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+  "javascript.format.semicolons": "insert",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "typescript.format.semicolons": "insert",
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "auto-close-tag.disableOnLanguage": ["typescript", "typescriptreact"],
+
+  /*Editors*/
+  "explorer.openEditors.visible": 0,
+  "workbench.editorAssociations": {
+    "*.bin": "default",
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.startupEditor": "none",
+  "editor.autoClosingComments": "never",
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "files.autoSave": "afterDelay",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "git.openRepositoryInParentFolders": "never",
+  "diffEditor.codeLens": true,
+  "git.enableSmartCommit": true,
+  "workbench.settings.useSplitJSON": true,
+
+  /*Frameworks && Lib*/
+  "reactSnippets.settings.importReactOnTop": false,
+
+  /*Editor Theme*/
+  "workbench.colorTheme": "Dracula At Night",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 8,
+  "editor.tokenColorCustomizations": {
+    "[Dracula At Night]": {
+      "textMateRules": [
+        {
+          "name": "JSX tags",
+          "scope": ["entity.name.tag support.class.component.tsx"],
+          "settings": {
+            "foreground": "#8be9fd"
+          }
+        }
+      ]
+    }
+  },
+  "vscode_vibrancy.theme": "Catppuccin Mocha",
+  "vscode_vibrancy.imports": ["../../../../Projects/personal/vib-drac-theme"],
+  "vscode_vibrancy.refreshInterval": 10,
+  "vscode_vibrancy.opacity": -1,
+  /*Transparent Terminal for Vibrancy*/
+  "workbench.colorCustomizations": {
+    "terminal.background": "#00000000"
+  },
+  "find-it-faster.general.batTheme": "gengar",
+  "find-it-faster.general.killTerminalAfterUse": true,
+  "find-it-faster.general.useTerminalInEditor": true,
+  "terminal.integrated.gpuAcceleration": "off"
+}
